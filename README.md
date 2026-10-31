@@ -10,7 +10,7 @@
 
 </div>
 
----
+--- João Wyctor
 
 ## 🎮 SELECT PLAYER
 
