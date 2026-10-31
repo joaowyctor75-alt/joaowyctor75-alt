@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 200" width="900" height="200">
+  <defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0b0f1a"/><stop offset="1" stop-color="#2a1218"/></linearGradient></defs>
+  <style>
+    .sun { animation: rise 2s ease-out forwards; transform: translateY(40px); }
+    @keyframes rise { to { transform: translateY(0); } }
+    .txt { opacity: 0; animation: fade 1s ease-out 1.2s forwards; }
+    .txt2 { opacity: 0; animation: fade 1s ease-out 1.8s forwards; }
+    @keyframes fade { to { opacity: 1; } }
+    .petal { animation: fall linear infinite; }
+    @keyframes fall { 0% { transform: translate(0,-20px) rotate(0); opacity: 0; } 10%,90% { opacity: 1; } 100% { transform: translate(-120px,230px) rotate(500deg); opacity: 0; } }
+  </style>
+  <rect width="900" height="200" fill="url(#sky)"/>
+  <clipPath id="hz"><rect x="0" y="0" width="900" height="150"/></clipPath>
+  <g clip-path="url(#hz)"><circle class="sun" cx="450" cy="150" r="64" fill="#c8102e"/></g>
+  <!-- torii -->
+  <g fill="#07050a">
+    <path d="M380 92 Q450 80 520 92 L522 100 Q450 90 378 100 Z"/>
+    <rect x="392" y="108" width="116" height="7"/>
+    <rect x="404" y="98" width="10" height="56"/>
+    <rect x="486" y="98" width="10" height="56"/>
+    <rect x="445" y="100" width="10" height="10"/>
+  </g>
+  <rect x="0" y="150" width="900" height="50" fill="#07050a"/>
+  <ellipse class="petal" style="animation-duration:9s;animation-delay:-0s" cx="120" cy="0" rx="4" ry="2.5" fill="#ffb7c5"/><ellipse class="petal" style="animation-duration:11s;animation-delay:-4s" cx="260" cy="0" rx="4" ry="2.5" fill="#ffb7c5"/><ellipse class="petal" style="animation-duration:8s;animation-delay:-2s" cx="400" cy="0" rx="4" ry="2.5" fill="#ffb7c5"/><ellipse class="petal" style="animation-duration:12s;animation-delay:-6s" cx="560" cy="0" rx="4" ry="2.5" fill="#ffb7c5"/><ellipse class="petal" style="animation-duration:10s;animation-delay:-1s" cx="700" cy="0" rx="4" ry="2.5" fill="#ffb7c5"/><ellipse class="petal" style="animation-duration:9.5s;animation-delay:-5s" cx="820" cy="0" rx="4" ry="2.5" fill="#ffb7c5"/><ellipse class="petal" style="animation-duration:13s;animation-delay:-8s" cx="330" cy="0" rx="4" ry="2.5" fill="#ffb7c5"/><ellipse class="petal" style="animation-duration:10.5s;animation-delay:-3s" cx="620" cy="0" rx="4" ry="2.5" fill="#ffb7c5"/>
+  <text class="txt" x="450" y="40" text-anchor="middle" font-family="Georgia, serif" font-size="22" fill="#f5f0e8" letter-spacing="6">ARIGATŌ · OBRIGADO PELA VISITA</text>
+  <text class="txt2" x="450" y="180" text-anchor="middle" font-family="'Courier New', monospace" font-size="13" fill="#a8998f">que a sua jornada seja longa e o seu código, afiado</text>
+</svg>

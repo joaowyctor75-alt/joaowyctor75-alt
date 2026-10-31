@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" width="900" height="300">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b0f1a"/>
+      <stop offset="0.6" stop-color="#1a1424"/>
+      <stop offset="1" stop-color="#2a1218"/>
+    </linearGradient>
+    <radialGradient id="moonGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ff3b3b" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#ff3b3b" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="blade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#9aa4b2"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .glow { animation: pulse 4s ease-in-out infinite; transform-origin: 700px 125px; }
+    @keyframes pulse { 0%,100% { opacity: .6; transform: scale(1); } 50% { opacity: 1; transform: scale(1.08); } }
+
+    .scarf { animation: wave 2.4s ease-in-out infinite; transform-origin: 690px 160px; }
+    @keyframes wave { 0%,100% { transform: skewY(0deg) scaleX(1); } 50% { transform: skewY(-6deg) scaleX(1.12); } }
+
+    .shine { animation: shine 3.5s ease-in-out infinite; }
+    @keyframes shine { 0%,70%,100% { opacity: 0; } 80% { opacity: 1; } }
+
+    .slash { stroke-dasharray: 760; stroke-dashoffset: 760; animation: slash 6s ease-out infinite; }
+    @keyframes slash {
+      0%,8% { stroke-dashoffset: 760; opacity: 1; }
+      14% { stroke-dashoffset: 0; opacity: 1; }
+      30%,100% { stroke-dashoffset: 0; opacity: 0; }
+    }
+
+    .name { opacity: 0; animation: reveal 1.2s ease-out .4s forwards; }
+    .sub  { opacity: 0; animation: reveal 1.2s ease-out 1.2s forwards; }
+    .line { stroke-dasharray: 500; stroke-dashoffset: 500; animation: draw 1.2s ease-out 1s forwards; }
+    @keyframes reveal { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes draw { to { stroke-dashoffset: 0; } }
+
+    .petal { animation: fall linear infinite; }
+    .p1 { animation-duration: 9s;  animation-delay: 0s; }
+    .p2 { animation-duration: 11s; animation-delay: -3s; }
+    .p3 { animation-duration: 8s;  animation-delay: -5s; }
+    .p4 { animation-duration: 12s; animation-delay: -1s; }
+    .p5 { animation-duration: 10s; animation-delay: -7s; }
+    .p6 { animation-duration: 9.5s; animation-delay: -4s; }
+    .p7 { animation-duration: 13s; animation-delay: -9s; }
+    .p8 { animation-duration: 10.5s; animation-delay: -2s; }
+    @keyframes fall {
+      0%   { transform: translate(0, -30px) rotate(0deg); opacity: 0; }
+      10%  { opacity: 1; }
+      90%  { opacity: 1; }
+      100% { transform: translate(-160px, 340px) rotate(540deg); opacity: 0; }
+    }
+  </style>
+
+  <!-- céu -->
+  <rect width="900" height="300" fill="url(#sky)"/>
+
+  <!-- kanji d'água -->
+  <text x="40" y="250" font-family="serif" font-size="230" fill="#ffffff" opacity="0.025">侍</text>
+
+  <!-- lua vermelha -->
+  <circle class="glow" cx="700" cy="125" r="120" fill="url(#moonGlow)"/>
+  <circle cx="700" cy="125" r="72" fill="#c8102e"/>
+  <circle cx="700" cy="125" r="72" fill="none" stroke="#ff5a5a" stroke-width="2" opacity="0.6"/>
+
+  <!-- montanhas -->
+  <polygon points="380,300 520,190 600,240 700,170 820,235 900,200 900,300" fill="#1b1220"/>
+  <polygon points="300,300 470,230 560,265 660,225 780,270 900,245 900,300" fill="#120c16"/>
+  <path d="M560 300 Q 700 240 840 300 Z" fill="#07050a"/>
+
+  <!-- samurai -->
+  <g fill="#07050a" transform="translate(0 12)">
+    <!-- cachecol -->
+    <path class="scarf" d="M692 160 C 660 162, 640 150, 610 158 C 630 166, 655 172, 690 170 Z" fill="#c8102e"/>
+    <!-- chapéu kasa -->
+    <polygon points="652,150 700,124 748,150 700,146"/>
+    <!-- cabeça -->
+    <rect x="690" y="146" width="20" height="16" rx="4"/>
+    <!-- corpo e hakama -->
+    <path d="M676 160 L724 160 L734 210 L748 262 L652 262 L666 210 Z"/>
+    <!-- braço -->
+    <path d="M718 168 L746 186 L742 194 L714 180 Z"/>
+    <!-- katana -->
+    <rect x="740" y="182" width="16" height="5" rx="2" transform="rotate(-38 748 184)"/>
+    <line x1="752" y1="178" x2="830" y2="118" stroke="url(#blade)" stroke-width="3" stroke-linecap="round"/>
+    <circle class="shine" cx="820" cy="126" r="4" fill="#ffffff"/>
+  </g>
+
+  <!-- corte de katana -->
+  <line class="slash" x1="40" y1="290" x2="760" y2="20" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- pétalas de sakura -->
+  <g fill="#ffb7c5">
+    <ellipse class="petal p1" cx="520" cy="0"  rx="5" ry="3"/>
+    <ellipse class="petal p2" cx="620" cy="0"  rx="4" ry="2.5"/>
+    <ellipse class="petal p3" cx="760" cy="0"  rx="5" ry="3"/>
+    <ellipse class="petal p4" cx="860" cy="0"  rx="4" ry="2.5"/>
+    <ellipse class="petal p5" cx="420" cy="0"  rx="5" ry="3"/>
+    <ellipse class="petal p6" cx="700" cy="0"  rx="3.5" ry="2"/>
+    <ellipse class="petal p7" cx="300" cy="0"  rx="4" ry="2.5"/>
+    <ellipse class="petal p8" cx="900" cy="0"  rx="5" ry="3"/>
+  </g>
+
+  <!-- nome -->
+  <g font-family="Georgia, 'Times New Roman', serif">
+    <text class="name" x="50" y="135" font-size="58" font-weight="700" fill="#f5f0e8" letter-spacing="6">JOÃO WYCTOR</text>
+    <line class="line" x1="52" y1="155" x2="550" y2="155" stroke="#c8102e" stroke-width="3"/>
+    <text class="sub" x="52" y="188" font-size="18" fill="#d9cfc1" letter-spacing="5">RONIN DA TECNOLOGIA · ADS</text>
+  </g>
+</svg>

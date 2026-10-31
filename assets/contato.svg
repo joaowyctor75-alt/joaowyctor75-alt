@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 70" width="900" height="70">
+  <style>.l { stroke-dasharray: 300; stroke-dashoffset: 300; animation: d 1.2s ease-out .3s forwards; } @keyframes d { to { stroke-dashoffset: 0; } }</style>
+  <line class="l" x1="40" y1="38" x2="300" y2="38" stroke="#c8102e" stroke-width="2"/>
+  <line class="l" x1="860" y1="38" x2="600" y2="38" stroke="#c8102e" stroke-width="2"/>
+  <text x="450" y="45" text-anchor="middle" font-family="Georgia, serif" font-size="22" fill="#f5f0e8" letter-spacing="6">CONVOCAR O SAMURAI</text>
+</svg>

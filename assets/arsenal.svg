@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 370" width="900" height="370">
+  <style>
+    .t { font-family: Georgia, 'Times New Roman', serif; }
+    .m { font-family: 'Courier New', monospace; }
+    .card { opacity: 0; animation: up .7s ease-out forwards; }
+    @keyframes up { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+    .rune { opacity: 0; animation: rune 4.8s ease-in-out infinite; }
+    @keyframes rune { 0%,100% { opacity: 0; } 8% { opacity: 1; } 20% { opacity: 0; } }
+    .spin { transform-box: fill-box; transform-origin: center; animation: spin 2.5s linear infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+  </style>
+  <rect x="1" y="1" width="898" height="368" rx="10" fill="#120d16" stroke="#3a2229" stroke-width="2"/>
+  <text class="t" x="450" y="40" text-anchor="middle" font-size="22" fill="#f5f0e8" letter-spacing="6">ARSENAL</text>
+  <line x1="380" y1="52" x2="520" y2="52" stroke="#c8102e" stroke-width="2"/>
+  <g class="card" style="animation-delay:0.00s">
+    <rect x="25" y="72" width="270" height="125" rx="8" fill="#1a1016" stroke="#3a2229" stroke-width="1.5"/>
+    <rect class="rune" style="animation-delay:1.5s" x="25" y="72" width="270" height="125" rx="8" fill="none" stroke="#ff4d5e" stroke-width="2"/>
+    <circle cx="77" cy="132" r="38" fill="#120a0e"/>
+    <g transform="rotate(-45 77 132)"><rect x="47" y="130" width="44" height="4" rx="2" fill="#e8ecf1"/><rect x="91" y="125" width="4" height="14" rx="1" fill="#c8102e"/><rect x="95" y="129" width="16" height="6" rx="2" fill="#2b1a20" stroke="#c8102e"/></g>
+    <text class="t" x="135" y="110" font-size="17" fill="#f5f0e8" letter-spacing="3">KATANA</text>
+    <text class="m" x="135" y="132" font-size="12" fill="#ff8a95">Front-end Web</text>
+    <text class="m" x="135" y="150" font-size="12" fill="#a8998f">HTML · CSS</text>
+    <circle cx="135" cy="174" r="5" fill="#c8102e" stroke="#c8102e" stroke-width="1.5"/><circle cx="151" cy="174" r="5" fill="#c8102e" stroke="#c8102e" stroke-width="1.5"/><circle cx="167" cy="174" r="5" fill="#c8102e" stroke="#c8102e" stroke-width="1.5"/><circle cx="183" cy="174" r="5" fill="none" stroke="#c8102e" stroke-width="1.5"/><circle cx="199" cy="174" r="5" fill="none" stroke="#c8102e" stroke-width="1.5"/>
+  </g><g class="card" style="animation-delay:0.15s">
+    <rect x="315" y="72" width="270" height="125" rx="8" fill="#1a1016" stroke="#3a2229" stroke-width="1.5"/>
+    <rect class="rune" style="animation-delay:2.3s" x="315" y="72" width="270" height="125" rx="8" fill="none" stroke="#ff4d5e" stroke-width="2"/>
+    <circle cx="367" cy="132" r="38" fill="#120a0e"/>
+    <path d="M367 106 L389 116 V134 C389 148 377 156 367 160 C357 156 345 148 345 134 V116 Z" fill="#2b1a20" stroke="#c8102e" stroke-width="2.5"/><g fill="none" stroke="#e8ecf1" stroke-width="2"><ellipse cx="367" cy="124" rx="10" ry="4"/><path d="M357 124 V140 C357 146 377 146 377 140 V124"/></g>
+    <text class="t" x="425" y="110" font-size="17" fill="#f5f0e8" letter-spacing="3">TATE</text>
+    <text class="m" x="425" y="132" font-size="12" fill="#ff8a95">Banco de Dados</text>
+    <text class="m" x="425" y="150" font-size="12" fill="#a8998f">Modelagem · SQL</text>
+    <circle cx="425" cy="174" r="5" fill="#c8102e" stroke="#c8102e" stroke-width="1.5"/><circle cx="441" cy="174" r="5" fill="#c8102e" stroke="#c8102e" stroke-width="1.5"/><circle cx="457" cy="174" r="5" fill="none" stroke="#c8102e" stroke-width="1.5"/><circle cx="473" cy="174" r="5" fill="none" stroke="#c8102e" stroke-width="1.5"/><circle cx="489" cy="174" r="5" fill="none" stroke="#c8102e" stroke-width="1.5"/>
+  </g><g class="card" style="animation-delay:0.30s">
+    <rect x="605" y="72" width="270" height="125" rx="8" fill="#1a1016" stroke="#3a2229" stroke-width="1.5"/>
+    <rect class="rune" style="animation-delay:3.1s" x="605" y="72" width="270" height="125" rx="8" fill="none" stroke="#ff4d5e" stroke-width="2"/>
+    <circle cx="657" cy="132" r="38" fill="#120a0e"/>
+    <rect x="639" y="112" width="36" height="40" fill="#f2e6cc"/><rect x="633" y="106" width="48" height="8" rx="4" fill="#c8102e"/><rect x="633" y="150" width="48" height="8" rx="4" fill="#c8102e"/><g stroke="#5a3a2a" stroke-width="2"><line x1="647" y1="124" x2="667" y2="124"/><line x1="647" y1="132" x2="663" y2="132"/><line x1="647" y1="140" x2="667" y2="140"/></g>
+    <text class="t" x="715" y="110" font-size="17" fill="#f5f0e8" letter-spacing="3">MAKIMONO</text>
+    <text class="m" x="715" y="132" font-size="12" fill="#ff8a95">Lógica de Programação</text>
+    <text class="m" x="715" y="150" font-size="12" fill="#a8998f">Algoritmos</text>
+    <circle cx="715" cy="174" r="5" fill="#c8102e" stroke="#c8102e" stroke-width="1.5"/><circle cx="731" cy="174" r="5" fill="#c8102e" stroke="#c8102e" stroke-width="1.5"/><circle cx="747" cy="174" r="5" fill="none" stroke="#c8102e" stroke-width="1.5"/><circle cx="763" cy="174" r="5" fill="none" stroke="#c8102e" stroke-width="1.5"/><circle cx="779" cy="174" r="5" fill="none" stroke="#c8102e" stroke-width="1.5"/>
+  </g><g class="card" style="animation-delay:0.45s">
+    <rect x="25" y="217" width="270" height="125" rx="8" fill="#1a1016" stroke="#3a2229" stroke-width="1.5"/>
+    <rect class="rune" style="animation-delay:3.9s" x="25" y="217" width="270" height="125" rx="8" fill="none" stroke="#ff4d5e" stroke-width="2"/>
+    <circle cx="77" cy="277" r="38" fill="#120a0e"/>
+    <path d="M51 287 C51 255 103 255 103 287 Z" fill="#2b1a20" stroke="#c8102e" stroke-width="2.5"/><path d="M45 287 H109 L103 299 H51 Z" fill="#c8102e"/><path d="M77 263 L59 243 M77 263 L95 243" stroke="#f4d27a" stroke-width="3" stroke-linecap="round"/>
+    <text class="t" x="135" y="255" font-size="17" fill="#f5f0e8" letter-spacing="3">YOROI</text>
+    <text class="m" x="135" y="277" font-size="12" fill="#ff8a95">Sistemas Operacionais</text>
+    <text class="m" x="135" y="295" font-size="12" fill="#a8998f">Fundamentos de SO</text>
+    <circle cx="135" cy="319" r="5" fill="#c8102e" stroke="#c8102e" stroke-width="1.5"/><circle cx="151" cy="319" r="5" fill="#c8102e" stroke="#c8102e" stroke-width="1.5"/><circle cx="167" cy="319" r="5" fill="none" stroke="#c8102e" stroke-width="1.5"/><circle cx="183" cy="319" r="5" fill="none" stroke="#c8102e" stroke-width="1.5"/><circle cx="199" cy="319" r="5" fill="none" stroke="#c8102e" stroke-width="1.5"/>
+  </g><g class="card" style="animation-delay:0.60s">
+    <rect x="315" y="217" width="270" height="125" rx="8" fill="#1a1016" stroke="#3a2229" stroke-width="1.5"/>
+    <rect class="rune" style="animation-delay:4.7s" x="315" y="217" width="270" height="125" rx="8" fill="none" stroke="#ff4d5e" stroke-width="2"/>
+    <circle cx="367" cy="277" r="38" fill="#120a0e"/>
+    <path d="M359 247 C393 263 393 291 359 307" fill="none" stroke="#c8102e" stroke-width="4" stroke-linecap="round"/><line x1="359" y1="247" x2="359" y2="307" stroke="#e8ecf1" stroke-width="1.5"/><line x1="343" y1="277" x2="389" y2="277" stroke="#e8ecf1" stroke-width="2"/><path d="M389 277 l-7 -5 v10 z" fill="#e8ecf1"/>
+    <text class="t" x="425" y="255" font-size="17" fill="#f5f0e8" letter-spacing="3">YUMI</text>
+    <text class="m" x="425" y="277" font-size="12" fill="#ff8a95">IA no Azure</text>
+    <text class="m" x="425" y="295" font-size="12" fill="#a8998f">Certificação AI-900</text>
+    <circle cx="425" cy="319" r="5" fill="#c8102e" stroke="#c8102e" stroke-width="1.5"/><circle cx="441" cy="319" r="5" fill="#c8102e" stroke="#c8102e" stroke-width="1.5"/><circle cx="457" cy="319" r="5" fill="#c8102e" stroke="#c8102e" stroke-width="1.5"/><circle cx="473" cy="319" r="5" fill="none" stroke="#c8102e" stroke-width="1.5"/><circle cx="489" cy="319" r="5" fill="none" stroke="#c8102e" stroke-width="1.5"/>
+  </g><g class="card" style="animation-delay:0.75s">
+    <rect x="605" y="217" width="270" height="125" rx="8" fill="#1a1016" stroke="#3a2229" stroke-width="1.5"/>
+    <rect class="rune" style="animation-delay:5.5s" x="605" y="217" width="270" height="125" rx="8" fill="none" stroke="#ff4d5e" stroke-width="2"/>
+    <circle cx="657" cy="277" r="38" fill="#120a0e"/>
+    <g class="spin"><path d="M657 249 L664 270 L685 277 L664 284 L657 305 L650 284 L629 277 L650 270 Z" fill="#e8ecf1" stroke="#9aa4b2"/><circle cx="657" cy="277" r="5" fill="#120d16" stroke="#c8102e" stroke-width="2"/></g>
+    <text class="t" x="715" y="255" font-size="17" fill="#f5f0e8" letter-spacing="3">SHURIKEN</text>
+    <text class="m" x="715" y="277" font-size="12" fill="#ff8a95">Git &amp; GitHub</text>
+    <text class="m" x="715" y="295" font-size="12" fill="#a8998f">Soluções de IA</text>
+    <circle cx="715" cy="319" r="5" fill="#c8102e" stroke="#c8102e" stroke-width="1.5"/><circle cx="731" cy="319" r="5" fill="#c8102e" stroke="#c8102e" stroke-width="1.5"/><circle cx="747" cy="319" r="5" fill="#c8102e" stroke="#c8102e" stroke-width="1.5"/><circle cx="763" cy="319" r="5" fill="none" stroke="#c8102e" stroke-width="1.5"/><circle cx="779" cy="319" r="5" fill="none" stroke="#c8102e" stroke-width="1.5"/>
+  </g>
+</svg>

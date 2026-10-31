@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 62" width="900" height="62">
+  <style>
+    .pill { opacity: 0; animation: in .5s ease-out forwards; }
+    @keyframes in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+    .lit { opacity: 0; animation: lit 2.8s ease-in-out infinite; }
+    @keyframes lit { 0%,100% { opacity: 0; } 15% { opacity: .45; } 35% { opacity: 0; } }
+  </style>
+  <g class="pill" style="animation-delay:0.00s">
+    <rect x="9.5" y="14" width="104" height="34" rx="17" fill="#1a1016" stroke="#c8102e" stroke-width="1.5"/>
+    <rect class="lit" style="animation-delay:1.50s" x="9.5" y="14" width="104" height="34" rx="17" fill="#c8102e"/>
+    <path d="M22.5 31 l4 -4 l4 4 l-4 4 z" fill="#f4d27a"/>
+    <text x="68.5" y="36" text-anchor="middle" font-family="'Courier New', monospace" font-size="13" font-weight="700" fill="#f5f0e8">HTML</text>
+  </g><g class="pill" style="animation-delay:0.12s">
+    <rect x="120.5" y="14" width="104" height="34" rx="17" fill="#1a1016" stroke="#c8102e" stroke-width="1.5"/>
+    <rect class="lit" style="animation-delay:1.85s" x="120.5" y="14" width="104" height="34" rx="17" fill="#c8102e"/>
+    <path d="M133.5 31 l4 -4 l4 4 l-4 4 z" fill="#f4d27a"/>
+    <text x="179.5" y="36" text-anchor="middle" font-family="'Courier New', monospace" font-size="13" font-weight="700" fill="#f5f0e8">CSS</text>
+  </g><g class="pill" style="animation-delay:0.24s">
+    <rect x="231.5" y="14" width="104" height="34" rx="17" fill="#1a1016" stroke="#c8102e" stroke-width="1.5"/>
+    <rect class="lit" style="animation-delay:2.20s" x="231.5" y="14" width="104" height="34" rx="17" fill="#c8102e"/>
+    <path d="M244.5 31 l4 -4 l4 4 l-4 4 z" fill="#f4d27a"/>
+    <text x="290.5" y="36" text-anchor="middle" font-family="'Courier New', monospace" font-size="13" font-weight="700" fill="#f5f0e8">SQL</text>
+  </g><g class="pill" style="animation-delay:0.36s">
+    <rect x="342.5" y="14" width="104" height="34" rx="17" fill="#1a1016" stroke="#c8102e" stroke-width="1.5"/>
+    <rect class="lit" style="animation-delay:2.55s" x="342.5" y="14" width="104" height="34" rx="17" fill="#c8102e"/>
+    <path d="M355.5 31 l4 -4 l4 4 l-4 4 z" fill="#f4d27a"/>
+    <text x="401.5" y="36" text-anchor="middle" font-family="'Courier New', monospace" font-size="13" font-weight="700" fill="#f5f0e8">Azure</text>
+  </g><g class="pill" style="animation-delay:0.48s">
+    <rect x="453.5" y="14" width="104" height="34" rx="17" fill="#1a1016" stroke="#c8102e" stroke-width="1.5"/>
+    <rect class="lit" style="animation-delay:2.90s" x="453.5" y="14" width="104" height="34" rx="17" fill="#c8102e"/>
+    <path d="M466.5 31 l4 -4 l4 4 l-4 4 z" fill="#f4d27a"/>
+    <text x="512.5" y="36" text-anchor="middle" font-family="'Courier New', monospace" font-size="13" font-weight="700" fill="#f5f0e8">Git</text>
+  </g><g class="pill" style="animation-delay:0.60s">
+    <rect x="564.5" y="14" width="104" height="34" rx="17" fill="#1a1016" stroke="#c8102e" stroke-width="1.5"/>
+    <rect class="lit" style="animation-delay:3.25s" x="564.5" y="14" width="104" height="34" rx="17" fill="#c8102e"/>
+    <path d="M577.5 31 l4 -4 l4 4 l-4 4 z" fill="#f4d27a"/>
+    <text x="623.5" y="36" text-anchor="middle" font-family="'Courier New', monospace" font-size="13" font-weight="700" fill="#f5f0e8">GitHub</text>
+  </g><g class="pill" style="animation-delay:0.72s">
+    <rect x="675.5" y="14" width="104" height="34" rx="17" fill="#1a1016" stroke="#c8102e" stroke-width="1.5"/>
+    <rect class="lit" style="animation-delay:3.60s" x="675.5" y="14" width="104" height="34" rx="17" fill="#c8102e"/>
+    <path d="M688.5 31 l4 -4 l4 4 l-4 4 z" fill="#f4d27a"/>
+    <text x="734.5" y="36" text-anchor="middle" font-family="'Courier New', monospace" font-size="13" font-weight="700" fill="#f5f0e8">Windows</text>
+  </g><g class="pill" style="animation-delay:0.84s">
+    <rect x="786.5" y="14" width="104" height="34" rx="17" fill="#1a1016" stroke="#c8102e" stroke-width="1.5"/>
+    <rect class="lit" style="animation-delay:3.95s" x="786.5" y="14" width="104" height="34" rx="17" fill="#c8102e"/>
+    <path d="M799.5 31 l4 -4 l4 4 l-4 4 z" fill="#f4d27a"/>
+    <text x="845.5" y="36" text-anchor="middle" font-family="'Courier New', monospace" font-size="13" font-weight="700" fill="#f5f0e8">VS Code</text>
+  </g>
+</svg>
