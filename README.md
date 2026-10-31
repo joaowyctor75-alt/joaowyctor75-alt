@@ -42,8 +42,8 @@
 <div align="center">
   <img src="./assets/dojo.svg" alt="Dojo — estatísticas de treino no GitHub" width="100%"/>
   <br/><br/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=joaowyctor75-alt&show_icons=true&hide_border=false&bg_color=120d16&title_color=f5f0e8&icon_color=c8102e&text_color=d9cfc1&border_color=3a2229&locale=pt-br" alt="Estatísticas do GitHub"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=joaowyctor75-alt&layout=compact&bg_color=120d16&title_color=f5f0e8&text_color=d9cfc1&border_color=3a2229&locale=pt-br" alt="Linguagens mais usadas"/>
+  <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=joaowyctor75-alt&theme=radical" alt="Estatísticas do GitHub"/>
+  <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=joaowyctor75-alt&theme=radical" alt="Linguagens mais usadas"/>
   <br/>
   <img src="https://streak-stats.demolab.com/?user=joaowyctor75-alt&background=120d16&border=3a2229&ring=c8102e&fire=f4d27a&currStreakNum=f5f0e8&sideNums=f5f0e8&currStreakLabel=f4d27a&sideLabels=d9cfc1&dates=a8998f&locale=pt_BR" alt="Sequência de dias de treino"/>
 </div>
