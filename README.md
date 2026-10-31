@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🍄 WORLD 1-1 🍄
+# 🍄 BEM-VINDO AO MEU GITHUB 🍄
 
 ![Typing SVG](https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=18&duration=3000&pause=800&color=E52521&center=true&vCenter=true&width=700&lines=PLAYER+1+READY!;João+Wyctor;DEV+EM+BUSCA+DE+MOEDAS+%F0%9F%AA%99)
 
