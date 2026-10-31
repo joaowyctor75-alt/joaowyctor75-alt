@@ -1,0 +1,33 @@
+name: Registros do Dojo
+
+on:
+  schedule:
+    - cron: "17 9 * * *"   # todo dia, 06:17 no horário de Brasília
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/scripts/gen_dojo.py"
+      - ".github/workflows/dojo.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  dojo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Gerar card do dojo
+        run: python3 .github/scripts/gen_dojo.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: Salvar no repositório
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/dojo-stats.svg
+          git diff --cached --quiet || (git commit -m "Atualiza registros do dojo" && git push)
