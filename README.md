@@ -32,8 +32,8 @@
 
 | Item | Tecnologia | Nível |
 |---|---|---|
-| ⭐ Estrela | `HTML / CSS` | ▰▰▰▰▰ |
-| 🐢 Casco Verde | `Git / GitHub ` | ▰▰▰▰▱ |
+| ⭐ Estrela | `HTML / CSS` | ▰▰▰▱▱ |
+| 🐢 Casco Verde | `Git / GitHub ` | ▰▰▰▱▱ |
 
 ---
 
