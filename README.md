@@ -2,7 +2,7 @@
 
 # 🍄 WORLD 1-1 🍄
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=18&duration=3000&pause=800&color=E52521&center=true&vCenter=true&width=700&lines=PLAYER+1+READY!;SEU+NOME+AQUI;DEV+EM+BUSCA+DE+MOEDAS+%F0%9F%AA%99)
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=18&duration=3000&pause=800&color=E52521&center=true&vCenter=true&width=700&lines=PLAYER+1+READY!;João+Wyctor;DEV+EM+BUSCA+DE+MOEDAS+%F0%9F%AA%99)
 
 ![Mario](https://img.shields.io/badge/PLAYER-1-E52521?style=for-the-badge&logo=nintendo&logoColor=white)
 ![Level](https://img.shields.io/badge/LEVEL-1--1-43B047?style=for-the-badge)
