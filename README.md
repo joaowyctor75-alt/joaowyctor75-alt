@@ -42,10 +42,7 @@
 <div align="center">
   <img src="./assets/dojo.svg" alt="Dojo — estatísticas de treino no GitHub" width="100%"/>
   <br/><br/>
-  <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=joaowyctor75-alt&theme=radical" alt="Estatísticas do GitHub"/>
-  <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=joaowyctor75-alt&theme=radical" alt="Linguagens mais usadas"/>
-  <br/>
-  <img src="https://streak-stats.demolab.com/?user=joaowyctor75-alt&background=120d16&border=3a2229&ring=c8102e&fire=f4d27a&currStreakNum=f5f0e8&sideNums=f5f0e8&currStreakLabel=f4d27a&sideLabels=d9cfc1&dates=a8998f&locale=pt_BR" alt="Sequência de dias de treino"/>
+  <img src="./assets/dojo-stats.svg" alt="Registros do Dojo — contribuições, linguagens e sequência de dias" width="100%"/>
 </div>
 
 ---
