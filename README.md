@@ -1,88 +1,61 @@
+<!-- ⚔️ PARTE 1 — BANNER -->
 <div align="center">
-
-# 🍄 BEM-VINDO AO MEU GITHUB 🍄
-
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=18&duration=3000&pause=800&color=E52521&center=true&vCenter=true&width=700&lines=PLAYER+1+READY!;João+Wyctor;DEV+EM+BUSCA+DE+MOEDAS+%F0%9F%AA%99)
-
-![Mario](https://img.shields.io/badge/PLAYER-1-E52521?style=for-the-badge&logo=nintendo&logoColor=white)
-![Level](https://img.shields.io/badge/LEVEL-1--1-43B047?style=for-the-badge)
-![Lives](https://img.shields.io/badge/LIVES-%E2%9D%A4%EF%B8%8F%C3%973-FBD000?style=for-the-badge)
-
+  <img src="./assets/banner.svg" alt="João Wyctor — Ronin da Tecnologia" width="100%"/>
+  <img src="./assets/typing.svg" alt="Estudante de ADS · Front-end · Banco de Dados · AI-900" width="700"/>
 </div>
 
 ---
 
-## 🎮 SELECT PLAYER
-
-```
- MARIO                      WORLD     TIME
- 000000   🪙 x00            1-1       400
-```
-
-| 🧑 Jogador | Info |
-|---|---|
-| **Nome** | João Wyctor |
-| **Classe** | Desenvolvedor(a) |
-| **Localização** | São Paulo, BR 🇧🇷 |
-| **Missão** | Me tornar um progamador profissional |
-
----
-
-## ⭐ POWER-UPS (Skills)
-
-| Item | Tecnologia | Nível |
-|---|---|---|
-| ⭐ Estrela | `HTML / CSS` | ▰▰▰▱▱ |
-| 🐢 Casco Verde | `Git / GitHub ` | ▰▰▰▱▱ |
-
----
-
-## 🏰 FASES (Projetos)
-
-| Fase | Projeto | Status |
-|---|---|---|
-| 🌱 **1-1** | [Projeto 1](https://github.com/seu-usuario/projeto-1) — descrição curta | ✅ Concluída |
-| 🌊 **1-2** | [Projeto 2](https://github.com/seu-usuario/projeto-2) — descrição curta | 🚧 Em andamento |
-| 🏰 **1-4** | [Projeto 3](https://github.com/seu-usuario/projeto-3) — descrição curta | 🔒 Bloqueada |
-
----
-
-## 🪙 PLACAR (Stats)
-
+<!-- 📜 PARTE 2 — FICHA DO SAMURAI -->
 <div align="center">
+  <img src="./assets/ficha.svg" alt="Ficha do Samurai — atributos de João Wyctor" width="100%"/>
+</div>
 
-![Stats](https://github-readme-stats.vercel.app/api?username=SEU-USUARIO&show_icons=true&theme=radical&hide_border=true)
-![Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SEU-USUARIO&layout=compact&theme=radical&hide_border=true)
+> *"Depois de 5 anos de batalha no atendimento e na produção, onde forjei disciplina, organização e trabalho em equipe, deixei o antigo caminho para seguir a espada da tecnologia."*
 
-![Streak](https://streak-stats.demolab.com?user=SEU-USUARIO&theme=radical&hide_border=true)
+---
 
+<!-- 🗡️ PARTE 3 — ARSENAL -->
+<div align="center">
+  <img src="./assets/arsenal.svg" alt="Arsenal — Front-end, Banco de Dados, Lógica, Sistemas Operacionais, IA no Azure, Git e GitHub" width="100%"/>
+  <br/><br/>
+  <img src="./assets/tecnologias.svg" alt="Tecnologias: HTML, CSS, SQL, Azure, Git, GitHub, Windows, VS Code" width="100%"/>
 </div>
 
 ---
 
-## 🏆 CONQUISTAS
-
-- 🥉 **Primeiro commit** — Fez o primeiro commit
-- 🥈 **Combo de 7 dias** — Contribuiu 7 dias seguidos
-- 🥇 **Pull Request aceito** — Contribuiu em projeto open source
-- 👑 **Rei do Castelo** — _(desbloqueie a sua!)_
+<!-- 🛤️ PARTE 4 — JORNADA -->
+<div align="center">
+  <img src="./assets/jornada.svg" alt="Jornada — Atendimento, Produção, ADS, primeiros projetos e próxima missão" width="100%"/>
+</div>
 
 ---
 
-## 📡 CONTINUE? (Contato)
-
+<!-- 📜 PARTE 5 — PERGAMINHOS -->
 <div align="center">
+  <img src="./assets/pergaminhos.svg" alt="Pergaminhos — AI-900 Fundamentos de IA no Azure e Soluções de IA no GitHub" width="100%"/>
+</div>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/seu-usuario)
-[![Email](https://img.shields.io/badge/Email-E52521?style=for-the-badge&logo=gmail&logoColor=white)](mailto:seu@email.com)
-[![Portfolio](https://img.shields.io/badge/Portfólio-43B047?style=for-the-badge&logo=googlechrome&logoColor=white)](https://seusite.com)
+---
 
-### 🚩 Obrigado por jogar! 🚩
+<!-- 🥋 PARTE 6 — DOJO -->
+<div align="center">
+  <img src="./assets/dojo.svg" alt="Dojo — estatísticas de treino no GitHub" width="100%"/>
+  <br/><br/>
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=joaowyctor75-alt&show_icons=true&hide_border=false&bg_color=120d16&title_color=f5f0e8&icon_color=c8102e&text_color=d9cfc1&border_color=3a2229&locale=pt-br" alt="Estatísticas do GitHub"/>
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=joaowyctor75-alt&layout=compact&bg_color=120d16&title_color=f5f0e8&text_color=d9cfc1&border_color=3a2229&locale=pt-br" alt="Linguagens mais usadas"/>
+  <br/>
+  <img src="https://streak-stats.demolab.com/?user=joaowyctor75-alt&background=120d16&border=3a2229&ring=c8102e&fire=f4d27a&currStreakNum=f5f0e8&sideNums=f5f0e8&currStreakLabel=f4d27a&sideLabels=d9cfc1&dates=a8998f&locale=pt_BR" alt="Sequência de dias de treino"/>
+</div>
 
-`GAME OVER? ➜ PRESS START ▶`
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/joaowyctor75-alt/joaowyctor75-alt/output/github-contribution-grid-snake-dark.svg">
-  <img alt="snake" src="https://raw.githubusercontent.com/joaowyctor75-alt/joaowyctor75-alt/output/github-contribution-grid-snake.svg">
-</picture>
+---
 
+<!-- 🏯 PARTE 7 — CONTATO -->
+<div align="center">
+  <img src="./assets/contato.svg" alt="Convocar o samurai" width="100%"/>
+  <br/>
+  <a href="mailto:joaowyctor75@gmail.com"><img src="./assets/btn-email.svg" alt="E-mail" width="210"/></a>
+  <a href="https://www.linkedin.com/in/jo%C3%A3o-wyctor-fran%C3%A7a-dos-santos"><img src="./assets/btn-linkedin.svg" alt="LinkedIn" width="210"/></a>
+  <br/><br/>
+  <img src="./assets/footer.svg" alt="Arigatō — obrigado pela visita" width="100%"/>
 </div>
